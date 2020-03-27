@@ -1,7 +1,7 @@
 animal = "dog"
 
 function myAnimal() {
-  return animal
+  return animal // finds the animal in global scope as it is not able to find in global scope
 }
 
 function yourAnimal() {
